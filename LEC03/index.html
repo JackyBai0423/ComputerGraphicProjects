@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Painting Canvas</title>
+</head>
+<body>
+    <script src="script.js" id="module"></script>
+    <canvas id="myCanvas" width="400" height="400" color="black" ></canvas>
+    <br/>
+    <input id="slider_x" type="range" min="-150" max="150" ><p>X</p>
+    <br/>
+    <input id="slider_y" type="range" min="-100" max="100" ><p>Y</p>
+    <h3>Please tick these boxes to enable the additional features. </br>(rotation: the polygons will rotate,</br>scaling: the scale of the polygons will change,</br>rotation+scaling: both of the effect will apply, and it will look like it is rotating in 3d space)</h3>
+    <br/>
+    <input id="rotate_switch" type="checkbox" name="rotate_box" value="rotate_on">
+    <label for="rotate_switch">Enable Rotation</label>
+    </br>
+    <input id="scaling_switch" type="checkbox" name="scaling_box" value="scaling_on">
+    <label for="scaling_switch">Enable Scaling</label>
+    <h3>Move your mouse over the canvas to try these features. </h3>
+
+</body>
+</html>
